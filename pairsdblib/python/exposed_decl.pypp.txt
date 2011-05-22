@@ -1,0 +1,466 @@
+~@destructor_t@~PairsdblibException@ ( ::pairsdblib::PairsdblibException::* )(  )  ( ::pairsdblib::PairsdblibException::* )(  ) 
+~@destructor_t@~_Rep_base@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )(  ) 
+~@destructor_t@~_Alloc_hider@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )(  ) 
++@destructor_t@~AlignmentFormat@ ( ::alignlib::AlignmentFormat::* )(  )  ( ::alignlib::AlignmentFormat::* )(  ) 
+~@destructor_t@~allocator@ ( ::std::allocator<char>::* )(  )  ( ::std::allocator<char>::* )(  ) 
+~@destructor_t@~exception@ ( ::std::exception::* )(  )  ( ::std::exception::* )(  ) 
+~@destructor_t@~basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@destructor_t@~char_traits@ ( ::std::char_traits<char>::* )(  )  ( ::std::char_traits<char>::* )(  ) 
+~@destructor_t@~._36@ ( ::__mbstate_t::* )(  )  ( ::__mbstate_t::* )(  ) 
+~@destructor_t@~Connection@ ( ::pairsdblib::Connection::* )(  )  ( ::pairsdblib::Connection::* )(  ) 
+~@destructor_t@~_Rep@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) 
+~@destructor_t@~Query@ ( ::pairsdblib::Query::* )(  )  ( ::pairsdblib::Query::* )(  ) 
+~@destructor_t@~Row@ ( ::pairsdblib::Row::* )(  )  ( ::pairsdblib::Row::* )(  ) 
++@destructor_t@~AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )(  )  ( ::alignlib::AlignmentFormatEmissions::* )(  ) 
+~@destructor_t@~new_allocator@ ( ::__gnu_cxx::new_allocator<char>::* )(  )  ( ::__gnu_cxx::new_allocator<char>::* )(  ) 
+~@destructor_t@~NeighborLink@ ( ::pairsdblib::NeighborLink::* )(  )  ( ::pairsdblib::NeighborLink::* )(  ) 
+~@destructor_t@~._35@ ( ::__mbstate_t::* )(  )  ( ::__mbstate_t::* )(  ) 
+~@typedef_t@MYSQL_RES@::MYSQL_RES
+~@typedef_t@NidVector@::pairsdblib::NidVector
+~@typedef_t@reference@::std::string::reference
+~@typedef_t@reference@::std::allocator< char >::reference
+~@typedef_t@reference@::__gnu_cxx::new_allocator< char >::reference
+~@typedef_t@streampos@::std::streampos
+~@typedef_t@HNeighborLinkVector@::pairsdblib::HNeighborLinkVector
+~@typedef_t@HSQLQuery@::pairsdblib::HSQLQuery
+~@typedef_t@HConnection@::pairsdblib::HConnection
+~@typedef_t@char_type@::std::char_traits< char >::char_type
+~@typedef_t@NeighborLinkVector@::pairsdblib::NeighborLinkVector
+~@typedef_t@Score@::pairsdblib::Score
+~@typedef_t@const_iterator@::std::string::const_iterator
+~@typedef_t@int64_t@::int64_t
+~@typedef_t@size_t@::size_t
+~@typedef_t@const_reverse_iterator@::std::string::const_reverse_iterator
+~@typedef_t@reverse_iterator@::std::string::reverse_iterator
+~@typedef_t@const_reference@::std::string::const_reference
+~@typedef_t@const_reference@::std::allocator< char >::const_reference
+~@typedef_t@const_reference@::__gnu_cxx::new_allocator< char >::const_reference
+~@typedef_t@Method@::pairsdblib::Method
+~@typedef_t@HNidVector@::pairsdblib::HNidVector
+~@typedef_t@mbstate_t@::mbstate_t
+~@typedef_t@const_pointer@::std::string::const_pointer
+~@typedef_t@const_pointer@::std::allocator< char >::const_pointer
+~@typedef_t@const_pointer@::__gnu_cxx::new_allocator< char >::const_pointer
+~@typedef_t@Description@::pairsdblib::Description
+~@typedef_t@size_type@::std::string::size_type
+~@typedef_t@size_type@::std::allocator< char >::size_type
+~@typedef_t@size_type@::__gnu_cxx::new_allocator< char >::size_type
+~@typedef_t@pointer@::std::string::pointer
+~@typedef_t@pointer@::std::allocator< char >::pointer
+~@typedef_t@pointer@::__gnu_cxx::new_allocator< char >::pointer
+~@typedef_t@MapNid2Length@::pairsdblib::MapNid2Length
+~@typedef_t@Nid@::pairsdblib::Nid
+~@typedef_t@HMapNid2Length@::pairsdblib::HMapNid2Length
+~@typedef_t@HAlignment@::alignlib::HAlignment
+~@typedef_t@int_type@::std::char_traits< char >::int_type
+~@typedef_t@_CharT_alloc_type@::std::string::_CharT_alloc_type
+~@typedef_t@HMultipleAlignment@::alignlib::HMultipleAlignment
+~@typedef_t@istream@::std::istream
+~@typedef_t@off_type@::std::char_traits< char >::off_type
+~@typedef_t@HQuery@::pairsdblib::HQuery
+~@typedef_t@SQLType_Boundaries@::pairsdblib::SQLType_Boundaries
+~@typedef_t@string@::std::string
+~@typedef_t@Did@::pairsdblib::Did
+~@typedef_t@MYSQL@::MYSQL
+~@typedef_t@_Raw_bytes_alloc@::std::string::_Rep::_Raw_bytes_alloc
+~@typedef_t@MYSQL_ROW@::MYSQL_ROW
+~@typedef_t@Filter@::pairsdblib::Filter
+~@typedef_t@Length@::pairsdblib::Length
+~@typedef_t@InformationString@::pairsdblib::InformationString
+~@typedef_t@ostream@::std::ostream
+~@typedef_t@Position@::alignlib::Position
+~@typedef_t@Identifier@::pairsdblib::Identifier
+~@typedef_t@RepeatId@::pairsdblib::RepeatId
+~@typedef_t@pos_type@::std::char_traits< char >::pos_type
+~@typedef_t@HRow@::pairsdblib::HRow
+~@typedef_t@state_type@::std::char_traits< char >::state_type
+~@typedef_t@ZScore@::pairsdblib::ZScore
+~@typedef_t@_Atomic_word@::_Atomic_word
+~@typedef_t@Sequence@::pairsdblib::Sequence
+~@typedef_t@difference_type@::std::string::difference_type
+~@typedef_t@difference_type@::std::allocator< char >::difference_type
+~@typedef_t@difference_type@::__gnu_cxx::new_allocator< char >::difference_type
+~@typedef_t@EValue@::pairsdblib::EValue
+~@typedef_t@Pid@::pairsdblib::Pid
+~@typedef_t@streamoff@::std::streamoff
+~@typedef_t@HAlignatum@::alignlib::HAlignatum
+~@typedef_t@traits_type@::std::string::traits_type
+~@typedef_t@allocator_type@::std::string::allocator_type
+~@typedef_t@ptrdiff_t@::ptrdiff_t
+~@typedef_t@value_type@::std::string::value_type
+~@typedef_t@value_type@::std::allocator< char >::value_type
+~@typedef_t@value_type@::__gnu_cxx::new_allocator< char >::value_type
+~@typedef_t@iterator@::std::string::iterator
+~@typedef_t@HAlignandum@::alignlib::HAlignandum
++@namespace_t@std@::std
++@namespace_t@__gnu_cxx@::__gnu_cxx
+~@namespace_t@py_details@::py_details
++@namespace_t@pairsdblib@::pairsdblib
++@namespace_t@alignlib@::alignlib
++@namespace_t@boost@::boost
+~@class_declaration_t@shared_ptr< pairsdblib::Connection >@::boost::shared_ptr< pairsdblib::Connection >
+~@class_declaration_t@shared_ptr< std::map< long int, int > >@::boost::shared_ptr< std::map< long int, int > >
++@class_declaration_t@shared_ptr< alignlib::Alignatum >@::boost::shared_ptr< alignlib::Alignatum >
++@class_declaration_t@shared_ptr< alignlib::Alignandum >@::boost::shared_ptr< alignlib::Alignandum >
+~@class_declaration_t@__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >@::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >
+~@class_declaration_t@reverse_iterator< __gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >@::std::reverse_iterator< __gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >
++@class_declaration_t@shared_ptr< alignlib::MultipleAlignment >@::boost::shared_ptr< alignlib::MultipleAlignment >
+~@class_declaration_t@map< long int, int >@::std::map< long int, int >
+~@class_declaration_t@reverse_iterator< __gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >@::std::reverse_iterator< __gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >
++@class_declaration_t@vector< long int >@::std::vector< long int >
+~@class_declaration_t@vector< pairsdblib::NeighborLink >@::std::vector< pairsdblib::NeighborLink >
+~@class_declaration_t@shared_ptr< std::vector< long int > >@::boost::shared_ptr< std::vector< long int > >
+~@class_declaration_t@shared_ptr< std::vector< pairsdblib::NeighborLink > >@::boost::shared_ptr< std::vector< pairsdblib::NeighborLink > >
+~@class_declaration_t@SQLQuery@::pairsdblib::SQLQuery
+~@class_declaration_t@shared_ptr< pairsdblib::Row >@::boost::shared_ptr< pairsdblib::Row >
+~@class_declaration_t@shared_ptr< pairsdblib::SQLQuery >@::boost::shared_ptr< pairsdblib::SQLQuery >
+~@class_declaration_t@shared_ptr< pairsdblib::Query >@::boost::shared_ptr< pairsdblib::Query >
++@class_declaration_t@vector< std::pair<int, int> >@::std::vector< std::pair<int, int> >
+~@class_declaration_t@__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >
+~@class_declaration_t@pair< int, int >@::std::pair< int, int >
+~@class_declaration_t@fpos< __mbstate_t >@::std::fpos< __mbstate_t >
+~@variable_t@mRow@::pairsdblib::Row::mRow
+~@variable_t@_M_length@::std::string::_Rep_base::_M_length
+~@variable_t@mUser@::pairsdblib::Connection::mUser
+~@variable_t@mResult@::pairsdblib::Query::mResult
+~@variable_t@mNumFields@::pairsdblib::Query::mNumFields
+~@variable_t@mNumFields@::pairsdblib::Row::mNumFields
+~@variable_t@mScore@::pairsdblib::NeighborLink::mScore
+~@variable_t@mHost@::pairsdblib::Connection::mHost
+~@variable_t@mEValue@::pairsdblib::NeighborLink::mEValue
+~@variable_t@_M_refcount@::std::string::_Rep_base::_M_refcount
+~@variable_t@mMapQuery2Sbjct@::pairsdblib::NeighborLink::mMapQuery2Sbjct
+~@variable_t@mClientFlag@::pairsdblib::Connection::mClientFlag
++@variable_t@mRowTo@::alignlib::AlignmentFormat::mRowTo
+~@variable_t@mSocket@::pairsdblib::Connection::mSocket
+~@variable_t@mConnection@::pairsdblib::Connection::mConnection
+~@variable_t@mConnection@::pairsdblib::Query::mConnection
+~@variable_t@_M_capacity@::std::string::_Rep_base::_M_capacity
++@variable_t@mColTo@::alignlib::AlignmentFormat::mColTo
+~@variable_t@_M_dataplus@::std::string::_M_dataplus
+~@variable_t@mSbjctNid@::pairsdblib::NeighborLink::mSbjctNid
+~@variable_t@__wch@::__mbstate_t::__wch
+~@variable_t@mPassword@::pairsdblib::Connection::mPassword
+~@variable_t@__wchb@::__mbstate_t::__wchb
+~@variable_t@mQueryNid@::pairsdblib::NeighborLink::mQueryNid
++@variable_t@mRowFrom@::alignlib::AlignmentFormat::mRowFrom
+~@variable_t@mPort@::pairsdblib::Connection::mPort
++@variable_t@mRowAlignment@::alignlib::AlignmentFormatEmissions::mRowAlignment
++@variable_t@mColFrom@::alignlib::AlignmentFormat::mColFrom
+~@variable_t@_S_terminal@::std::string::_Rep::_S_terminal
+~@variable_t@mMessage@::pairsdblib::PairsdblibException::mMessage
++@variable_t@mColAlignment@::alignlib::AlignmentFormatEmissions::mColAlignment
+~@variable_t@__count@::__mbstate_t::__count
+~@variable_t@mPid@::pairsdblib::NeighborLink::mPid
+~@variable_t@_S_max_size@::std::string::_Rep::_S_max_size
+~@variable_t@_S_empty_rep_storage@::std::string::_Rep::_S_empty_rep_storage
+~@variable_t@npos@::std::string::npos
+~@variable_t@_M_p@::std::string::_Alloc_hider::_M_p
+~@variable_t@__value@::__mbstate_t::__value
+~@class_t@st_mysql@::st_mysql
+~@class_t@char_traits< char >@::std::char_traits< char >
+~@class_t@st_mysql_res@::st_mysql_res
++@class_t@AlignmentFormat@::alignlib::AlignmentFormat
+~@class_t@_Alloc_hider@::std::string::_Alloc_hider
+~@class_t@basic_streambuf< char, std::char_traits< char > >@::std::basic_streambuf< char, std::char_traits< char > >
+~@class_t@_Rep_base@::std::string::_Rep_base
++@class_t@shared_ptr< alignlib::Alignment >@::boost::shared_ptr< alignlib::Alignment >
+~@class_t@__mbstate_t@::__mbstate_t
+~@class_t@allocator< char >@::std::allocator< char >
+~@class_t@string@::std::string
+~@class_t@basic_istream< char, std::char_traits< char > >@::std::basic_istream< char, std::char_traits< char > >
+~@class_t@Connection@::pairsdblib::Connection
+~@class_t@exception@::std::exception
+~@class_t@('/usr/include/wchar.h', 82)@::__mbstate_t
+~@class_t@NeighborLink@::pairsdblib::NeighborLink
+~@class_t@_Rep@::std::string::_Rep
+~@class_t@PairsdblibException@::pairsdblib::PairsdblibException
++@class_t@AlignmentFormatEmissions@::alignlib::AlignmentFormatEmissions
+~@class_t@basic_ostream< char, std::char_traits< char > >@::std::basic_ostream< char, std::char_traits< char > >
+~@class_t@Query@::pairsdblib::Query
+~@class_t@Row@::pairsdblib::Row
+~@class_t@new_allocator< char >@::__gnu_cxx::new_allocator< char >
+~@member_function_t@eq_int_type@bool (*)( int const &,int const & )bool (*)( int const &,int const & )
+~@member_function_t@move@char * (*)( char *,char const *,::size_t )char * (*)( char *,char const *,::size_t )
+~@member_function_t@rbegin@::std::reverse_iterator< __gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) ::std::reverse_iterator<__gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@rbegin@::std::reverse_iterator< __gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::std::reverse_iterator<__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@find@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const
+~@member_function_t@find@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t ) const
+~@member_function_t@find@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const
+~@member_function_t@find@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const
+~@member_function_t@find@char const * (*)( char const *,::size_t,char const & )char const * (*)( char const *,::size_t,char const & )
+~@member_function_t@_M_grab@char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator< char > const &,::std::allocator< char > const & ) char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator<char> const &,::std::allocator<char> const & ) 
+~@member_function_t@lt@bool (*)( char const &,char const & )bool (*)( char const &,char const & )
+~@member_function_t@swap@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string & ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ) 
+~@member_function_t@setPassword@void ( ::pairsdblib::Connection::* )( ::std::string const & ) void ( ::pairsdblib::Connection::* )( ::std::string const & ) 
+~@member_function_t@find_first_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t ) const
+~@member_function_t@find_first_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const
+~@member_function_t@find_first_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const
+~@member_function_t@find_first_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const
++@member_function_t@save@void ( ::alignlib::AlignmentFormatEmissions::* )( ::std::ostream & ) constvoid ( ::alignlib::AlignmentFormatEmissions::* )( ::std::ostream & ) const
++@member_function_t@save@void ( ::alignlib::AlignmentFormat::* )( ::std::ostream & ) constvoid ( ::alignlib::AlignmentFormat::* )( ::std::ostream & ) const
+~@member_function_t@allocate@char * ( ::__gnu_cxx::new_allocator<char>::* )( ::size_t,void const * ) char * ( ::__gnu_cxx::new_allocator<char>::* )( ::size_t,void const * ) 
+~@member_function_t@_M_clone@char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator< char > const &,::size_t ) char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator<char> const &,::size_t ) 
+~@member_function_t@find_last_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t ) const
+~@member_function_t@find_last_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const
+~@member_function_t@find_last_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const
+~@member_function_t@find_last_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const
+~@member_function_t@insert@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::size_t,char ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::size_t,char ) 
+~@member_function_t@insert@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_function_t@insert@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::std::string const &,::size_t,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t ) 
+~@member_function_t@insert@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char const *,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char const *,::size_t ) 
+~@member_function_t@insert@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char const * ) 
+~@member_function_t@insert@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char ) 
+~@member_function_t@insert@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,char ) ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,char ) 
+~@member_function_t@_M_destroy@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator< char > const & ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator<char> const & ) 
+~@member_function_t@fetchRow@bool ( ::pairsdblib::Query::* )( ::pairsdblib::Row & ) bool ( ::pairsdblib::Query::* )( ::pairsdblib::Row & ) 
+~@member_function_t@setPort@void ( ::pairsdblib::Connection::* )( int ) void ( ::pairsdblib::Connection::* )( int ) 
+~@member_function_t@Disconnect@bool ( ::pairsdblib::Connection::* )(  ) bool ( ::pairsdblib::Connection::* )(  ) 
+~@member_function_t@to_int_type@int (*)( char const & )int (*)( char const & )
+~@member_function_t@erase@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t ) 
+~@member_function_t@erase@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ) ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ) 
+~@member_function_t@erase@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ) ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ) 
+~@member_function_t@endQuery@void ( ::pairsdblib::Query::* )(  ) void ( ::pairsdblib::Query::* )(  ) 
+~@member_function_t@eq@bool (*)( char const &,char const & )bool (*)( char const &,char const & )
+~@member_function_t@append@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_function_t@append@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t ) 
+~@member_function_t@append@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) 
+~@member_function_t@append@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) 
+~@member_function_t@append@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char ) 
+~@member_function_t@what@char const * ( ::pairsdblib::PairsdblibException::* )(  ) constchar const * ( ::pairsdblib::PairsdblibException::* )(  ) const
+~@member_function_t@what@char const * ( ::std::exception::* )(  ) constchar const * ( ::std::exception::* )(  ) const
+~@member_function_t@_M_copy@void (*)( char *,char const *,::size_t )void (*)( char *,char const *,::size_t )
+~@member_function_t@capacity@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@_S_copy_chars@void (*)( char *,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > )void (*)( char *,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > )
+~@member_function_t@_S_copy_chars@void (*)( char *,::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > )void (*)( char *,::__gnu_cxx::__normal_iterator<const char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<const char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > )
+~@member_function_t@_S_copy_chars@void (*)( char *,char *,char * )void (*)( char *,char *,char * )
+~@member_function_t@_S_copy_chars@void (*)( char *,char const *,char const * )void (*)( char *,char const *,char const * )
+~@member_function_t@not_eof@int (*)( int const & )int (*)( int const & )
+~@member_function_t@getResultNumColumns@int ( ::pairsdblib::Query::* )(  ) constint ( ::pairsdblib::Query::* )(  ) const
+~@member_function_t@to_char_type@char (*)( int const & )char (*)( int const & )
+~@member_function_t@setHost@void ( ::pairsdblib::Connection::* )( ::std::string const & ) void ( ::pairsdblib::Connection::* )( ::std::string const & ) 
+~@member_function_t@_M_is_shared@bool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) constbool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) const
+~@member_function_t@_M_disjunct@bool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) constbool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) const
+~@member_function_t@deallocate@void ( ::__gnu_cxx::new_allocator<char>::* )( char *,::size_t ) void ( ::__gnu_cxx::new_allocator<char>::* )( char *,::size_t ) 
+~@member_function_t@getHost@::std::string const & ( ::pairsdblib::Connection::* )(  ) const::std::string const & ( ::pairsdblib::Connection::* )(  ) const
+~@member_function_t@_M_data@char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) constchar * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@_M_data@char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char * ) char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char * ) 
+~@member_function_t@getSocket@::std::string const & ( ::pairsdblib::Connection::* )(  ) const::std::string const & ( ::pairsdblib::Connection::* )(  ) const
+~@member_function_t@_M_refcopy@char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) 
+~@member_function_t@getClientFlag@int ( ::pairsdblib::Connection::* )(  ) constint ( ::pairsdblib::Connection::* )(  ) const
+~@member_function_t@_M_set_leaked@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) 
+~@member_function_t@_M_replace_aux@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::size_t,char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::size_t,char ) 
+~@member_function_t@c_str@char const * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) constchar const * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@setDatabase@void ( ::pairsdblib::Connection::* )( ::std::string const & ) void ( ::pairsdblib::Connection::* )( ::std::string const & ) 
+~@member_function_t@rfind@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t ) const
+~@member_function_t@rfind@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const
+~@member_function_t@rfind@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const
+~@member_function_t@rfind@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const
+~@member_function_t@get_allocator@::std::allocator< char > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::std::allocator<char> ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@_M_mutate@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::size_t ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::size_t ) 
+~@member_function_t@length@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@length@::size_t (*)( char const * )::size_t (*)( char const * )
+~@member_function_t@find_first_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t ) const
+~@member_function_t@find_first_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const
+~@member_function_t@find_first_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const
+~@member_function_t@find_first_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const
+~@member_function_t@_M_leak@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@_M_iend@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@assign@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_function_t@assign@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t ) 
+~@member_function_t@assign@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) 
+~@member_function_t@assign@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) 
+~@member_function_t@assign@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char ) 
+~@member_function_t@assign@void (*)( char &,char const & )void (*)( char &,char const & )
+~@member_function_t@assign@char * (*)( char *,::size_t,char )char * (*)( char *,::size_t,char )
++@member_function_t@load@void ( ::alignlib::AlignmentFormatEmissions::* )( ::std::istream & ) void ( ::alignlib::AlignmentFormatEmissions::* )( ::std::istream & ) 
++@member_function_t@load@void ( ::alignlib::AlignmentFormat::* )( ::std::istream & ) void ( ::alignlib::AlignmentFormat::* )( ::std::istream & ) 
+~@member_function_t@find_last_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t ) const
+~@member_function_t@find_last_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::size_t ) const
+~@member_function_t@find_last_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t ) const
+~@member_function_t@find_last_not_of@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char,::size_t ) const
+~@member_function_t@_M_set_length_and_sharable@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::size_t ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::size_t ) 
+~@member_function_t@address@char * ( ::__gnu_cxx::new_allocator<char>::* )( char & ) constchar * ( ::__gnu_cxx::new_allocator<char>::* )( char & ) const
+~@member_function_t@address@char const * ( ::__gnu_cxx::new_allocator<char>::* )( char const & ) constchar const * ( ::__gnu_cxx::new_allocator<char>::* )( char const & ) const
+~@member_function_t@isConnected@bool ( ::pairsdblib::Connection::* )(  ) constbool ( ::pairsdblib::Connection::* )(  ) const
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::string const &,::size_t,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const *,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const *,::size_t ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const * ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::size_t,char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::size_t,char ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,char const *,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,char const *,::size_t ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,char const * ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::size_t,char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::size_t,char ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,char *,char * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,char *,char * ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,char const *,char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,char const *,char const * ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ) 
+~@member_function_t@replace@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > >,::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<const char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > >,::__gnu_cxx::__normal_iterator<const char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ) 
+~@member_function_t@substr@::std::string ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t ) const::std::basic_string<char,std::char_traits<char>,std::allocator<char> > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t ) const
+~@member_function_t@getUser@::std::string const & ( ::pairsdblib::Connection::* )(  ) const::std::string const & ( ::pairsdblib::Connection::* )(  ) const
+~@member_function_t@push_back@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char ) 
+~@member_function_t@_M_is_leaked@bool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) constbool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) const
+~@member_function_t@_M_assign@void (*)( char *,::size_t,char )void (*)( char *,::size_t,char )
+~@member_function_t@_M_check_length@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const * ) constvoid ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const * ) const
+~@member_function_t@_M_check@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char const * ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char const * ) const
+~@member_function_t@size@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@construct@void ( ::__gnu_cxx::new_allocator<char>::* )( char *,char const & ) void ( ::__gnu_cxx::new_allocator<char>::* )( char *,char const & ) 
+~@member_function_t@_M_move@void (*)( char *,char const *,::size_t )void (*)( char *,char const *,::size_t )
+~@member_function_t@setClientFlag@void ( ::pairsdblib::Connection::* )( int ) void ( ::pairsdblib::Connection::* )( int ) 
+~@member_function_t@getPort@int ( ::pairsdblib::Connection::* )(  ) constint ( ::pairsdblib::Connection::* )(  ) const
+~@member_function_t@empty@bool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) constbool ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@_M_ibegin@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@setUser@void ( ::pairsdblib::Connection::* )( ::std::string const & ) void ( ::pairsdblib::Connection::* )( ::std::string const & ) 
+~@member_function_t@setSocket@void ( ::pairsdblib::Connection::* )( ::std::string const & ) void ( ::pairsdblib::Connection::* )( ::std::string const & ) 
+~@member_function_t@_M_set_sharable@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) 
+~@member_function_t@copy@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char *,::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char *,::size_t,::size_t ) const
+~@member_function_t@copy@char * (*)( char *,char const *,::size_t )char * (*)( char *,char const *,::size_t )
++@member_function_t@copy@void ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::HAlignment & ) constvoid ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::HAlignment & ) const
++@member_function_t@copy@void ( ::alignlib::AlignmentFormat::* )( ::alignlib::HAlignment & ) constvoid ( ::alignlib::AlignmentFormat::* )( ::alignlib::HAlignment & ) const
+~@member_function_t@resize@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char ) 
+~@member_function_t@resize@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) 
+~@member_function_t@Set@void ( ::pairsdblib::Row::* )( ::MYSQL_ROW const,int ) void ( ::pairsdblib::Row::* )( ::MYSQL_ROW const,int ) 
+~@member_function_t@_M_leak_hard@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@_S_compare@int (*)( ::size_t,::size_t )int (*)( ::size_t,::size_t )
+~@member_function_t@_M_refdata@char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) char * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) 
+~@member_function_t@Connect@bool ( ::pairsdblib::Connection::* )( ::std::string const & ) bool ( ::pairsdblib::Connection::* )( ::std::string const & ) 
+~@member_function_t@_M_replace_safe@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const *,::size_t ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const *,::size_t ) 
+~@member_function_t@_M_rep@::std::string::_Rep * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@compare@int ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const & ) constint ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) const
+~@member_function_t@compare@int ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::string const & ) constint ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) const
+~@member_function_t@compare@int ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::string const &,::size_t,::size_t ) constint ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t ) const
+~@member_function_t@compare@int ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) constint ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) const
+~@member_function_t@compare@int ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const * ) constint ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const * ) const
+~@member_function_t@compare@int ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const *,::size_t ) constint ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t,char const *,::size_t ) const
+~@member_function_t@compare@int (*)( char const *,char const *,::size_t )int (*)( char const *,char const *,::size_t )
+~@member_function_t@rend@::std::reverse_iterator< __gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) ::std::reverse_iterator<__gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@rend@::std::reverse_iterator< __gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::std::reverse_iterator<__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@getConnection@::MYSQL * ( ::pairsdblib::Connection::* )(  ) ::MYSQL * ( ::pairsdblib::Connection::* )(  ) 
+~@member_function_t@startQuery@bool ( ::pairsdblib::Query::* )( ::std::string const &,bool ) bool ( ::pairsdblib::Query::* )( ::std::string const &,bool ) 
+~@member_function_t@at@char const & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) constchar const & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) const
+~@member_function_t@at@char & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) char & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) 
++@member_function_t@fill@void ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::HAlignment const & ) void ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::HAlignment const & ) 
++@member_function_t@fill@void ( ::alignlib::AlignmentFormat::* )( ::alignlib::HAlignment const & ) void ( ::alignlib::AlignmentFormat::* )( ::alignlib::HAlignment const & ) 
+~@member_function_t@getDatabase@::std::string ( ::pairsdblib::Connection::* )(  ) ::std::string ( ::pairsdblib::Connection::* )(  ) 
+~@member_function_t@end@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@end@::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::__gnu_cxx::__normal_iterator<const char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@getResultNumRows@int ( ::pairsdblib::Query::* )(  ) constint ( ::pairsdblib::Query::* )(  ) const
+~@member_function_t@_M_limit@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,::size_t ) const
+~@member_function_t@isEmpty@bool ( ::pairsdblib::Query::* )(  ) constbool ( ::pairsdblib::Query::* )(  ) const
+~@member_function_t@destroy@void ( ::__gnu_cxx::new_allocator<char>::* )( char * ) void ( ::__gnu_cxx::new_allocator<char>::* )( char * ) 
+~@member_function_t@_M_dispose@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator< char > const & ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::allocator<char> const & ) 
+~@member_function_t@begin@::__gnu_cxx::__normal_iterator< char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) ::__gnu_cxx::__normal_iterator<char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@begin@::__gnu_cxx::__normal_iterator< const char*, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::__gnu_cxx::__normal_iterator<const char*,std::basic_string<char, std::char_traits<char>, std::allocator<char> > > ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@_S_create@::std::string::_Rep * (*)( ::size_t,::size_t,::std::allocator< char > const & )::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep * (*)( ::size_t,::size_t,::std::allocator<char> const & )
++@member_function_t@getNumEmissions@::alignlib::Position ( ::alignlib::AlignmentFormatEmissions::* )( ::std::string const & ) ::alignlib::Position ( ::alignlib::AlignmentFormatEmissions::* )( ::std::string const & ) 
+~@member_function_t@_S_empty_rep@::std::string::_Rep & (*)(  )::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep & (*)(  )
+~@member_function_t@_S_empty_rep@::std::string::_Rep & (*)(  )::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep & (*)(  )
+~@member_function_t@data@char const * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) constchar const * ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@max_size@::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const::size_t ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) const
+~@member_function_t@max_size@::size_t ( ::__gnu_cxx::new_allocator<char>::* )(  ) const::size_t ( ::__gnu_cxx::new_allocator<char>::* )(  ) const
+~@member_function_t@eof@int (*)(  )int (*)(  )
+~@member_function_t@clear@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@member_function_t@_S_construct@char * (*)( ::size_t,char,::std::allocator< char > const & )char * (*)( ::size_t,char,::std::allocator<char> const & )
+~@member_function_t@reserve@void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) void ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) 
+~@constructor_t@__mbstate_t@ ( ::__mbstate_t::* )( ::__mbstate_t const & )  ( ::__mbstate_t::* )( ::__mbstate_t const & ) 
+~@constructor_t@__mbstate_t@ ( ::__mbstate_t::* )(  )  ( ::__mbstate_t::* )(  ) 
++@constructor_t@AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )(  )  ( ::alignlib::AlignmentFormatEmissions::* )(  ) 
++@constructor_t@AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::HAlignment const & )  ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::HAlignment const & ) 
++@constructor_t@AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )( ::std::istream & )  ( ::alignlib::AlignmentFormatEmissions::* )( ::std::istream & ) 
++@constructor_t@AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )( ::std::string const & )  ( ::alignlib::AlignmentFormatEmissions::* )( ::std::string const & ) 
++@constructor_t@AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::AlignmentFormatEmissions const & )  ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::AlignmentFormatEmissions const & ) 
++@constructor_t@AlignmentFormatEmissions@ ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::Position const,::std::string const &,::alignlib::Position const,::std::string const & )  ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::Position const,::std::string const &,::alignlib::Position const,::std::string const & ) 
+~@constructor_t@exception@ ( ::std::exception::* )( ::std::exception const & )  ( ::std::exception::* )( ::std::exception const & ) 
+~@constructor_t@exception@ ( ::std::exception::* )(  )  ( ::std::exception::* )(  ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )(  ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::allocator< char > const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::allocator<char> const & ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t,::size_t )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const &,::size_t,::size_t,::std::allocator< char > const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,::size_t,::size_t,::std::allocator<char> const & ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::std::allocator< char > const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::size_t,::std::allocator<char> const & ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::std::allocator< char > const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const *,::std::allocator<char> const & ) 
+~@constructor_t@basic_string@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char,::std::allocator< char > const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t,char,::std::allocator<char> const & ) 
+~@constructor_t@('/usr/include/wchar.h', 82)@ ( ::__mbstate_t::* )( ::__mbstate_t const & )  ( ::__mbstate_t::* )( ::__mbstate_t const & ) 
+~@constructor_t@('/usr/include/wchar.h', 82)@ ( ::__mbstate_t::* )(  )  ( ::__mbstate_t::* )(  ) 
++@constructor_t@AlignmentFormat@ ( ::alignlib::AlignmentFormat::* )(  )  ( ::alignlib::AlignmentFormat::* )(  ) 
++@constructor_t@AlignmentFormat@ ( ::alignlib::AlignmentFormat::* )( ::alignlib::HAlignment const & )  ( ::alignlib::AlignmentFormat::* )( ::alignlib::HAlignment const & ) 
++@constructor_t@AlignmentFormat@ ( ::alignlib::AlignmentFormat::* )( ::std::istream & )  ( ::alignlib::AlignmentFormat::* )( ::std::istream & ) 
++@constructor_t@AlignmentFormat@ ( ::alignlib::AlignmentFormat::* )( ::std::string const & )  ( ::alignlib::AlignmentFormat::* )( ::std::string const & ) 
++@constructor_t@AlignmentFormat@ ( ::alignlib::AlignmentFormat::* )( ::alignlib::AlignmentFormat const & )  ( ::alignlib::AlignmentFormat::* )( ::alignlib::AlignmentFormat const & ) 
+~@constructor_t@NeighborLink@ ( ::pairsdblib::NeighborLink::* )( ::pairsdblib::NeighborLink const & )  ( ::pairsdblib::NeighborLink::* )( ::pairsdblib::NeighborLink const & ) 
+~@constructor_t@NeighborLink@ ( ::pairsdblib::NeighborLink::* )(  )  ( ::pairsdblib::NeighborLink::* )(  ) 
+~@constructor_t@NeighborLink@ ( ::pairsdblib::NeighborLink::* )( ::pairsdblib::Nid const &,::pairsdblib::Nid const &,::pairsdblib::EValue const &,::alignlib::Position const &,::std::string const &,::alignlib::Position const &,::std::string const &,::pairsdblib::Score const &,::pairsdblib::Pid const & )  ( ::pairsdblib::NeighborLink::* )( ::pairsdblib::Nid const &,::pairsdblib::Nid const &,::pairsdblib::EValue const &,::alignlib::Position const &,::std::string const &,::alignlib::Position const &,::std::string const &,::pairsdblib::Score const &,::pairsdblib::Pid const & ) 
+~@constructor_t@_Rep@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::string::_Rep const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep const & ) 
+~@constructor_t@_Rep@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )(  ) 
+~@constructor_t@Connection@ ( ::pairsdblib::Connection::* )( ::std::string const &,::std::string const &,::std::string const &,::std::string const & )  ( ::pairsdblib::Connection::* )( ::std::string const &,::std::string const &,::std::string const &,::std::string const & ) 
+~@constructor_t@Connection@ ( ::pairsdblib::Connection::* )( ::std::string const &,::std::string const &,::std::string const &,int,::std::string const & )  ( ::pairsdblib::Connection::* )( ::std::string const &,::std::string const &,::std::string const &,int,::std::string const & ) 
+~@constructor_t@Connection@ ( ::pairsdblib::Connection::* )( ::std::string const &,::std::string const &,::std::string const &,int )  ( ::pairsdblib::Connection::* )( ::std::string const &,::std::string const &,::std::string const &,int ) 
+~@constructor_t@Connection@ ( ::pairsdblib::Connection::* )( ::pairsdblib::Connection const & )  ( ::pairsdblib::Connection::* )( ::pairsdblib::Connection const & ) 
+~@constructor_t@Connection@ ( ::pairsdblib::Connection::* )(  )  ( ::pairsdblib::Connection::* )(  ) 
+~@constructor_t@_Alloc_hider@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )( ::std::string::_Alloc_hider const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider const & ) 
+~@constructor_t@_Alloc_hider@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )( char *,::std::allocator< char > const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )( char *,::std::allocator<char> const & ) 
+~@constructor_t@_Rep_base@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )( ::std::string::_Rep_base const & )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base const & ) 
+~@constructor_t@_Rep_base@ ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )(  )  ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )(  ) 
+~@constructor_t@PairsdblibException@ ( ::pairsdblib::PairsdblibException::* )( ::pairsdblib::PairsdblibException const & )  ( ::pairsdblib::PairsdblibException::* )( ::pairsdblib::PairsdblibException const & ) 
+~@constructor_t@PairsdblibException@ ( ::pairsdblib::PairsdblibException::* )( char const * )  ( ::pairsdblib::PairsdblibException::* )( char const * ) 
+~@constructor_t@new_allocator@ ( ::__gnu_cxx::new_allocator<char>::* )(  )  ( ::__gnu_cxx::new_allocator<char>::* )(  ) 
+~@constructor_t@new_allocator@ ( ::__gnu_cxx::new_allocator<char>::* )( ::__gnu_cxx::new_allocator< char > const & )  ( ::__gnu_cxx::new_allocator<char>::* )( ::__gnu_cxx::new_allocator<char> const & ) 
+~@constructor_t@Query@ ( ::pairsdblib::Query::* )( ::pairsdblib::Connection & )  ( ::pairsdblib::Query::* )( ::pairsdblib::Connection & ) 
+~@constructor_t@Query@ ( ::pairsdblib::Query::* )( ::pairsdblib::Query const & )  ( ::pairsdblib::Query::* )( ::pairsdblib::Query const & ) 
+~@constructor_t@char_traits@ ( ::std::char_traits<char>::* )( ::std::char_traits< char > const & )  ( ::std::char_traits<char>::* )( ::std::char_traits<char> const & ) 
+~@constructor_t@char_traits@ ( ::std::char_traits<char>::* )(  )  ( ::std::char_traits<char>::* )(  ) 
+~@constructor_t@allocator@ ( ::std::allocator<char>::* )(  )  ( ::std::allocator<char>::* )(  ) 
+~@constructor_t@allocator@ ( ::std::allocator<char>::* )( ::std::allocator< char > const & )  ( ::std::allocator<char>::* )( ::std::allocator<char> const & ) 
+~@constructor_t@Row@ ( ::pairsdblib::Row::* )(  )  ( ::pairsdblib::Row::* )(  ) 
+~@constructor_t@Row@ ( ::pairsdblib::Row::* )( ::MYSQL_ROW const )  ( ::pairsdblib::Row::* )( ::MYSQL_ROW const ) 
+~@constructor_t@Row@ ( ::pairsdblib::Row::* )( ::pairsdblib::Row const & )  ( ::pairsdblib::Row::* )( ::pairsdblib::Row const & ) 
+~@free_operator_t@operator<<@::std::ostream & (*)( ::std::ostream &,::pairsdblib::Row const & )::std::ostream & (*)( ::std::ostream &,::pairsdblib::Row const & )
+~@free_operator_t@operator>>@::std::istream & (*)( ::std::istream &,::pairsdblib::Query & )::std::istream & (*)( ::std::istream &,::pairsdblib::Query & )
+~@free_operator_t@operator>>@::std::istream & (*)( ::std::istream &,::pairsdblib::Row & )::std::istream & (*)( ::std::istream &,::pairsdblib::Row & )
+~@member_operator_t@operator=@::pairsdblib::NeighborLink & ( ::pairsdblib::NeighborLink::* )( ::pairsdblib::NeighborLink const & ) ::pairsdblib::NeighborLink & ( ::pairsdblib::NeighborLink::* )( ::pairsdblib::NeighborLink const & ) 
+~@member_operator_t@operator=@::pairsdblib::Connection & ( ::pairsdblib::Connection::* )( ::pairsdblib::Connection const & ) ::pairsdblib::Connection & ( ::pairsdblib::Connection::* )( ::pairsdblib::Connection const & ) 
+~@member_operator_t@operator=@::pairsdblib::PairsdblibException & ( ::pairsdblib::PairsdblibException::* )( ::pairsdblib::PairsdblibException const & ) ::pairsdblib::PairsdblibException & ( ::pairsdblib::PairsdblibException::* )( ::pairsdblib::PairsdblibException const & ) 
+~@member_operator_t@operator=@::pairsdblib::Row & ( ::pairsdblib::Row::* )( ::pairsdblib::Row const & ) ::pairsdblib::Row & ( ::pairsdblib::Row::* )( ::pairsdblib::Row const & ) 
+~@member_operator_t@operator=@::__mbstate_t & ( ::__mbstate_t::* )( ::__mbstate_t const & ) ::__mbstate_t & ( ::__mbstate_t::* )( ::__mbstate_t const & ) 
+~@member_operator_t@operator=@::__mbstate_t & ( ::__mbstate_t::* )( ::__mbstate_t const & ) ::__mbstate_t & ( ::__mbstate_t::* )( ::__mbstate_t const & ) 
+~@member_operator_t@operator=@::std::exception & ( ::std::exception::* )( ::std::exception const & ) ::std::exception & ( ::std::exception::* )( ::std::exception const & ) 
+~@member_operator_t@operator=@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_operator_t@operator=@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) 
+~@member_operator_t@operator=@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char ) 
+~@member_operator_t@operator=@::std::string::_Rep_base & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )( ::std::string::_Rep_base const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep_base const & ) 
+~@member_operator_t@operator=@::std::string::_Rep & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::string::_Rep const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Rep const & ) 
+~@member_operator_t@operator=@::std::string::_Alloc_hider & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )( ::std::string::_Alloc_hider const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Alloc_hider const & ) 
+~@member_operator_t@operator=@::std::allocator< char > & ( ::std::allocator<char>::* )( ::std::allocator< char > const & ) ::std::allocator<char> & ( ::std::allocator<char>::* )( ::std::allocator<char> const & ) 
+~@member_operator_t@operator=@::std::char_traits< char > & ( ::std::char_traits<char>::* )( ::std::char_traits< char > const & ) ::std::char_traits<char> & ( ::std::char_traits<char>::* )( ::std::char_traits<char> const & ) 
+~@member_operator_t@operator=@::__gnu_cxx::new_allocator< char > & ( ::__gnu_cxx::new_allocator<char>::* )( ::__gnu_cxx::new_allocator< char > const & ) ::__gnu_cxx::new_allocator<char> & ( ::__gnu_cxx::new_allocator<char>::* )( ::__gnu_cxx::new_allocator<char> const & ) 
++@member_operator_t@operator=@::alignlib::AlignmentFormatEmissions & ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::AlignmentFormatEmissions const & ) ::alignlib::AlignmentFormatEmissions & ( ::alignlib::AlignmentFormatEmissions::* )( ::alignlib::AlignmentFormatEmissions const & ) 
++@member_operator_t@operator=@::alignlib::AlignmentFormat & ( ::alignlib::AlignmentFormat::* )( ::alignlib::AlignmentFormat const & ) ::alignlib::AlignmentFormat & ( ::alignlib::AlignmentFormat::* )( ::alignlib::AlignmentFormat const & ) 
+~@member_operator_t@operator+=@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::string const & ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & ) 
+~@member_operator_t@operator+=@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char const * ) 
+~@member_operator_t@operator+=@::std::string & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char ) ::std::basic_string<char,std::char_traits<char>,std::allocator<char> > & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( char ) 
+~@member_operator_t@operator[]@char const * ( ::pairsdblib::Row::* )( int ) constchar const * ( ::pairsdblib::Row::* )( int ) const
+~@member_operator_t@operator[]@char const & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) constchar const & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) const
+~@member_operator_t@operator[]@char & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) char & ( ::std::basic_string<char,std::char_traits<char>,std::allocator<char> >::* )( ::size_t ) 
++@free_function_t@makeAlignatumNid@::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Nid )::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Nid )
++@free_function_t@fillProfileDomains@void (*)( ::alignlib::HAlignandum &,::pairsdblib::Connection &,::pairsdblib::Did,char const *,char const *,unsigned int,unsigned int )void (*)( ::alignlib::HAlignandum &,::pairsdblib::Connection &,::pairsdblib::Did,char const *,char const *,unsigned int,unsigned int )
++@free_function_t@SQL_GetRepresentative@::pairsdblib::Nid (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::Filter,::pairsdblib::Filter )::pairsdblib::Nid (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::Filter,::pairsdblib::Filter )
++@free_function_t@makeAlignatumNeighbour@::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Identifier,::pairsdblib::Description,::pairsdblib::Nid,::pairsdblib::Pid,::pairsdblib::Score,::pairsdblib::EValue,::pairsdblib::Filter )::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Identifier,::pairsdblib::Description,::pairsdblib::Nid,::pairsdblib::Pid,::pairsdblib::Score,::pairsdblib::EValue,::pairsdblib::Filter )
++@free_function_t@SQL_GetSequenceLength@::alignlib::Position (*)( ::pairsdblib::Connection &,::pairsdblib::Nid const,char const * )::alignlib::Position (*)( ::pairsdblib::Connection &,::pairsdblib::Nid const,char const * )
++@free_function_t@makeAlignatumRadar@::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Score,::pairsdblib::ZScore )::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Score,::pairsdblib::ZScore )
++@free_function_t@makeMultipleAlignmentGroupies@::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,char const *,unsigned int,unsigned int )::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,char const *,unsigned int,unsigned int )
++@free_function_t@SQL_GetNids@::pairsdblib::HNidVector (*)( ::pairsdblib::Connection &,::std::string const & )::pairsdblib::HNidVector (*)( ::pairsdblib::Connection &,::std::string const & )
++@free_function_t@makeAlignatumGroupie@::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Identifier,::pairsdblib::Description,::pairsdblib::Nid,::pairsdblib::Pid,::pairsdblib::Score )::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Identifier,::pairsdblib::Description,::pairsdblib::Nid,::pairsdblib::Pid,::pairsdblib::Score )
++@free_function_t@SQL_GetSequenceDomainBoundaries@void (*)( ::pairsdblib::Connection &,::std::vector< std::pair<int, int> > &,::pairsdblib::Nid const,char const * )void (*)( ::pairsdblib::Connection &,::std::vector<std::pair<int, int>,std::allocator<std::pair<int, int> > > &,::pairsdblib::Nid const,char const * )
++@free_function_t@SQL_GetLengthMap@::pairsdblib::HMapNid2Length (*)( ::pairsdblib::Connection & )::pairsdblib::HMapNid2Length (*)( ::pairsdblib::Connection & )
++@free_function_t@fillProfileNeighbours@void (*)( ::alignlib::HAlignandum &,::pairsdblib::Connection &,::pairsdblib::Nid,char const *,unsigned int,unsigned int,::pairsdblib::Filter,::pairsdblib::Filter,::pairsdblib::EValue )void (*)( ::alignlib::HAlignandum &,::pairsdblib::Connection &,::pairsdblib::Nid,char const *,unsigned int,unsigned int,::pairsdblib::Filter,::pairsdblib::Filter,::pairsdblib::EValue )
++@free_function_t@makeAlignatumDomain@::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Identifier,::pairsdblib::Description,::pairsdblib::Nid,::pairsdblib::Score,::pairsdblib::ZScore )::alignlib::HAlignatum (*)( ::pairsdblib::Sequence,::pairsdblib::Identifier,::pairsdblib::Description,::pairsdblib::Nid,::pairsdblib::Score,::pairsdblib::ZScore )
++@free_function_t@fillAlignment100x@void (*)( ::alignlib::HAlignment &,::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::Filter )void (*)( ::alignlib::HAlignment &,::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::Filter )
++@free_function_t@SQL_GetNeighbours@void (*)( ::pairsdblib::Connection &,::std::vector< long int > &,::pairsdblib::Nid,char const * )void (*)( ::pairsdblib::Connection &,::std::vector<long int,std::allocator<long int> > &,::pairsdblib::Nid,char const * )
++@free_function_t@makeMultipleAlignmentRadar@::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::RepeatId,char const *,unsigned int,unsigned int )::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::RepeatId,char const *,unsigned int,unsigned int )
++@free_function_t@SQL_GetSequenceMaskBoundaries@void (*)( ::pairsdblib::Connection &,::std::vector< std::pair<int, int> > &,::pairsdblib::Nid const,::pairsdblib::Method const,char const * )void (*)( ::pairsdblib::Connection &,::std::vector<std::pair<int, int>,std::allocator<std::pair<int, int> > > &,::pairsdblib::Nid const,::pairsdblib::Method const,char const * )
++@free_function_t@makeMultipleAlignmentNeighbours@::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,char const *,unsigned int,unsigned int,::pairsdblib::Filter,::pairsdblib::Filter,::pairsdblib::EValue )::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Nid,char const *,unsigned int,unsigned int,::pairsdblib::Filter,::pairsdblib::Filter,::pairsdblib::EValue )
+~@free_function_t@instantiate@void (*)(  )void (*)(  )
++@free_function_t@makeMultipleAlignmentDomains@::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Did,char const *,unsigned int,unsigned int,bool,int )::alignlib::HMultipleAlignment (*)( ::pairsdblib::Connection &,::pairsdblib::Did,char const *,unsigned int,unsigned int,bool,int )
++@free_function_t@makeSequenceFromPairsdb@::alignlib::HAlignandum (*)( ::pairsdblib::Connection &,::pairsdblib::Nid )::alignlib::HAlignandum (*)( ::pairsdblib::Connection &,::pairsdblib::Nid )
++@free_function_t@SQL_GetNeighbourLinks@::pairsdblib::HNeighborLinkVector (*)( ::pairsdblib::Connection &,::pairsdblib::Nid const &,::std::string const & )::pairsdblib::HNeighborLinkVector (*)( ::pairsdblib::Connection &,::pairsdblib::Nid const &,::std::string const & )
++@free_function_t@fillAlignmentGroupie@void (*)( ::alignlib::HAlignment &,::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::Nid,char const * )void (*)( ::alignlib::HAlignment &,::pairsdblib::Connection &,::pairsdblib::Nid,::pairsdblib::Nid,char const * )

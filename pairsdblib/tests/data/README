@@ -1,0 +1,18 @@
+#
+# Execute the following commands to upload data
+# into the database test:
+#
+#
+#
+#
+tar -xzf pairsdb_data.tgz 
+mysql < pairsdb.sql
+mysqlimport -L test *.txt
+rm -f *.txt *.sql
+#
+# If necessary, add username, password, host, etc.
+# The user needs create, insert and file upload permissions in 
+# the database test.
+# 
+# For executing the actual tests, only select permissions are 
+# required.
