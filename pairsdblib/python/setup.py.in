@@ -8,7 +8,7 @@ def main():
     include_dirs = re.findall( "-I\s*(\S+)", "@BOOST_CPPFLAGS@ @ALIGNLIB_CFLAGS@ @MYSQL_CFLAGS@" ) +\
         [".","../pairsdblib", ".." ]
 
-    libraries=["@BOOST_PYTHON_LIB@", "pairsdblib"]
+    libraries=filter( lambda x: x != "", ["@BOOST_PYTHON_LIB@", "pairsdblib"] )
     library_dirs=[ "../pairsdblib/.libs" ]
 
     files = glob.glob( "modules/*.cpp" )
