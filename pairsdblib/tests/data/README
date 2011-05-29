@@ -6,9 +6,9 @@
 #
 #
 tar -xzf pairsdb_data.tgz 
-mysql < pairsdb.sql
-mysqlimport -L test *.txt
-rm -f *.txt *.sql
+mysql < data/pairsdb.sql
+mysqlimport -L test data/*.txt
+rm -rf data
 #
 # If necessary, add username, password, host, etc.
 # The user needs create, insert and file upload permissions in 

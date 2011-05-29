@@ -19,12 +19,14 @@ LDADD=../pairsdblib/.libs/libpairsdblib.a
 bin_PROGRAMS =  align_groupies \
 		get_mali \
 		rsdb_filter \
-		rsdb_create 
+		rsdb_create \
+		rsdb_index
 
 align_groupies_SOURCES = align_groupies.cpp 
 rsdb_create_SOURCES = rsdb_create.cpp
 rsdb_filter_SOURCES = rsdb_filter.cpp
 get_mali_SOURCES = get_mali.cpp
+rsdb_index_SOURCES = rsdb_index.cpp
 
 
 

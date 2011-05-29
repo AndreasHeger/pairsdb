@@ -80,7 +80,7 @@ void ParseArguments (int argc, char *argv[]) {
 
   extern char * optarg;
 
-  while ((c=getopt(argc, argv, "V?D:t:o:e:v:r:H:U:P:A:")) != EOF) {
+  while ((c=getopt(argc, argv, "V?D:t:o:e:v:r:H:U:P:A:")) != -1) {
     switch(c) {
     case 'D':
       param_database = optarg; break;

@@ -182,7 +182,7 @@ if __name__ == "__main__":
                          src_dir = "../pairsdblib",
                          boost_dir = None,
                          compiler = None,
-                         cflags = "-I/home/andreas/test/include -I/usr/include/mysql  -g -pipe -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fwrapv -fPIC",
+                         cflags = "-I/home/andreas/test_install/include -I/usr/include/mysql  -g -pipe -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fwrapv -fPIC   -DUNIV_LINUX",
                          gccxml_options = "",
                          pairsdblib_lib_dir = "../pairsdblib/.libs",
                          pairsdblib_include_dir = "../pairsdblib",

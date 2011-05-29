@@ -17,166 +17,156 @@
 
 #include <fcntl.h>
 #include <cstdio>
+#include <cstdlib>
 
-#include "adda.h"
+#include <alignlib.h>
+#include <alignlib/AlignlibIndex.h>
+
+
+#include "pairsdblib.h"
+
+#include <boost/program_options.hpp>
+namespace po = boost::program_options;
+typedef po::variables_map Options;
 
 using namespace std;
+using namespace pairsdblib;
+using namespace alignlib;
+
+#define MAX_LINE_LENGTH 65536
 
 /*--------------------------------------------------------------*/
 #include <unistd.h>
 
-static std::string param_file_name_neighbours = "neighbours.in";
-static std::string param_file_name_index = "index.in";
-
-static unsigned int param_report_step = 10000;
-static unsigned int param_loglevel = 0;
-static bool param_create = true;
-
-const char * my_progname = "index";
-const char * SYSTEM_TYPE = "..";
-const char * MACHINE_TYPE = "..";
-
-static void print_version() {
-  cout << my_progname << " Version $Id$ for  at ..." << endl;
-}    
-
-static void usage()
+//-------------------------------------> parameter parsing <----------------------------------
+void parseArguments( po::variables_map & vm,
+		     int argc, char *argv[])
 {
-  print_version();
-  cout << "Usage: " << my_progname << "[OPTIONS] links \n" << endl;
-  cout << "-v #		loglevel [" << param_loglevel << "]" << endl;
-  cout << "-r #		loglevel [" << param_report_step << "]" << endl;
-  cout << "-n #		file of sorted neighbours [" << param_file_name_neighbours << "]" << endl;
-  cout << "-f #		file of indices for neighbours [" << param_file_name_index << "]" << endl;
-  cout << "-c 		check index file versus neighbours" << endl;
 
-}
+    try 
+    {
+      // note: default_length option needs to be specified due
+      // to a bug in boost 1.35 and 1.36 - otherwise undefined
+      // value at the linking stage
+      #define DEFAULT_LINE_LENGTH 100
+      po::options_description generic("Generic options", DEFAULT_LINE_LENGTH);
+        
+      generic.add_options()                              
+	("help,h", "produce help message.")            
+	("version", "print Version.")
+	("verbose,v", po::value<int>()->default_value(1),        
+	 "enable verbosity (optionally specify level)");
 
-void ParseArguments (int argc, char *argv[]) {
+      po::options_description specific("Specific options", DEFAULT_LINE_LENGTH);
+        
+      specific.add_options()                              
+	("command,c", po::value< std::string >(),
+	 "commands to execute")
+	("filename-neighbors,n", po::value< std::string >(),
+	 "filename with neighbors")
+	("filename-index,i", po::value< std::string >(), 
+	 "filename with index of neighbor file. If not given, the index will be created on-the-fly.")
+	;
+      
+      // combine all options
+      po::options_description cmdline_options(DEFAULT_LINE_LENGTH);
+      cmdline_options.add(generic).add(specific);
 
-  int c;  
-  
-  extern char * optarg;
+      po::positional_options_description p;
+      p.add("command", 1);
 
-  while ((c=getopt(argc, argv, "r:v:n:f:c")) != EOF) {
-    switch(c) {
-    case 'v':
-      param_loglevel = atoi(optarg); break;
-    case 'r':
-      param_report_step = atoi(optarg); break;
-    case 'n':
-      param_file_name_neighbours = optarg; break;
-    case 'f':
-      param_file_name_index = optarg; break;
-    case 'c':
-      param_create = false; break;
+      po::store(po::command_line_parser(argc, argv).
+		options(cmdline_options).positional(p).run(), vm);
+      
+      po::notify(vm);
+
+      if (vm.count("help")) 
+        {
+	  std::cout << "Usage: options_description [options]\n";
+	  std::cout << cmdline_options;
+	  exit(EXIT_SUCCESS);
+        }
+
+	if (vm.count("version")) 
+        {
+	  std::cout << "Version $Id$\n";
+	  exit(EXIT_SUCCESS);
+        }
+
     }
-  }
-
-  // set pointers to end of options
-  (argc)-=optind;
-  (argv)+=optind;
-
-  if (argc != 0) {
-    usage();
-    exit(EXIT_FAILURE);
-  }     
-
-}
-
-
-//--------------------------------------------------------------------------------
-int main (int argc, char *argv[]) {
-
-  ParseArguments( argc, argv );
-
-  FILE * infile = fopen(param_file_name_neighbours.c_str(), "r"); 
-  
-  if (infile == NULL) {
-    std::cerr << "could not open filename with neighbours: " << param_file_name_neighbours << std::endl;
-    exit(EXIT_FAILURE);
-  }
-
-  FILE * outfile;
-  if (param_create) 
-    outfile = fopen(param_file_name_index.c_str(), "w"); 
-  else
-    outfile = fopen(param_file_name_index.c_str(), "r"); 
-  
-  if (outfile == NULL) {
-    std::cerr << "could not open filename for indices: " << param_file_name_index << std::endl;
-    exit(EXIT_FAILURE);
-  }
-
-  char buffer[MAX_LINE_LENGTH+1];
-  unsigned int iteration = 0;
-  Nid nid;
-  FileIndex index;
-
-  if (param_create) {
-
-    int last_nid = 0;
-  
-    while(!feof(infile)) { 
-      
-      iteration ++;
-      
-      if (param_loglevel >= 2) {
-	if (!(iteration % param_report_step)) {
-	  std::cout << "# line=" << iteration << " last_nid=" << last_nid << std::endl;
-	}
-      }
-      
-      fgetpos( infile, &index );    
-      if (fscanf(infile, "%ld", &nid) != 1) break;
-      
-      fgets( buffer, MAX_LINE_LENGTH, infile );
-
-      if (last_nid != nid) {
-	fwrite(&nid,sizeof(Nid),1,outfile);
-	fwrite(&index,sizeof(FileIndex),1,outfile); 
-	last_nid = nid;
-      }
-      
+    catch(exception& e)
+    {
+        cout << e.what() << "\n";
+        exit(EXIT_FAILURE);
+	
     }
-
-  } else {
-
-    if (param_loglevel >= 1) {
-      std::cout << "# checking index " << param_file_name_index << std::endl;
-      std::cout << "# against neighbours in " << param_file_name_neighbours << std::endl;
-    }
-
-    while(!feof(outfile)) { 
-
-      iteration ++;
     
-      fread(&nid,sizeof(Nid), 1, outfile);
-      if (feof(outfile)) break;
-      fread(&index, sizeof(FileIndex), 1, outfile);
-
-      if (param_loglevel >= 2) {
-	if (!(iteration % param_report_step)) {
-	  std::cout << "# line=" << iteration << " nid=" << nid << std::endl;
-	}
-      }
-
-      Nid check_nid;
-      fsetpos( infile, &index );    
-      if (fscanf(infile, "%ld", &check_nid) != 1) {
-	std::cerr << "error for nid " << nid << ": incorrect file position gives" 
-		  << check_nid << std::endl;
-	exit(EXIT_FAILURE);
-      }
-    }
-  }
-  
-  fclose(infile);  
-  fclose(outfile);  
-
+    return;
 }
+/*--------------------------------------------------------------------------*/
+int main(int argc, char *argv[])
+{
 
+  Options options;
 
+  parseArguments(options, argc, argv);
+
+  std::string command = options["command"].as<std::string> ();
+
+  // extract options
+  int loglevel = options["verbose"].as<int>();
+  if (options.count("filename-neighbors") == 0)
+    {
+      throw("no filename neighbours");
+    }
+
+  typedef alignlib::Index< Nid, alignlib::RecorderTable< Nid > > Index;
+  
+  FILE * infile = alignlib::openFileForRead( options["filename-neighbors"].as<std::string>() );
+  Index index;
+
+  index.setData( infile );
+
+  if (command == std::string("build") )
+    {
+      if (loglevel >= 1)
+	std::cout << "## building index..." << std::endl;
+      index.create();
+      if (loglevel >= 1)
+	std::cout << "## saving index..." << std::endl;
+      
+      FILE * outfile = alignlib::openFileForWrite( options["filename-index"].as<std::string>() );
+      index.save( outfile );
+    }
+  else if (command == std::string("check") )
+    {
+      if (loglevel >= 1)
+	std::cout << "## checking index..." << std::endl;
+      
+      FILE * index_file = alignlib::openFileForRead( options["filename-index"].as<std::string>() );
+      index.load( index_file );
+      fclose( index_file );
+      
+      Index::MapToken2IndexIterator it(index.begin());
+
+      for (; it != index.end(); ++it)
+	{
+	  Nid nid = it->first;
+	  index.goTo( nid );
+	  
+	}
+    }
+  else
+    {
+      throw "unknown command";
+    }
+	
+  if (loglevel >= 1)
+    std::cout << "## done" << std::endl;
+
+  exit( EXIT_SUCCESS );
+  
+}
 
 
 

@@ -119,7 +119,7 @@ struct NeighborGetterFromFile : public NeighborGetter
 	if (loglevel >=1)
 	  std::cout << "## reading index file from " << options["filename-index"].as<std::string>() << std::endl;
 	    
-	FILE * index_file = alignlib::openFileForRead( options["filename-neighbors"].as<std::string>() );
+	FILE * index_file = alignlib::openFileForRead( options["filename-index"].as<std::string>() );
 	mIndex.load( index_file );
 	fclose( index_file );
       }
@@ -253,17 +253,17 @@ void parseArguments( po::variables_map & vm,
             		"prefix for rsdb output files. The level will be appended." )
 	  ("prefix-groupies,o", po::value< std::string >()->default_value("groupies"), 
 	     "prefix for groupies output files. The level will be appended." )
-	    ("report-step,r", po::value<int>()->default_value(10000),        
+	    ("report-step,s", po::value<int>()->default_value(10000),        
 	     "report step")
-	    ("check-insertions,r", po::value<bool>()->default_value(false),        
+	    ("check-insertions,c", po::value<bool>()->default_value(false),        
 	     "check for insertions in sbjct")
 	    ("use-evalue,e", po::value<bool>()->default_value(false),        
 	     "use the evalue by filtering")
 	    ("level,l", po::value< vector<int> >(),
 	     "rsdb level to create. Multiple level can be given.")
-	  ("tablename-neighbors,n", po::value< std::string >()->default_value( "pairsdb_90x90" ),
+	  ("tablename-neighbors,T", po::value< std::string >()->default_value( "pairsdb_90x90" ),
 	   "tablename with neighbors.")
-	  ("tablename-nids,n", po::value< std::string >()->default_value( "nrdb90" ),
+	  ("tablename-nids,R", po::value< std::string >()->default_value( "nrdb90" ),
 	   "tablename with nids to use as a starting set.")
 	  ;
 	
@@ -455,7 +455,7 @@ int main(int argc, char *argv[])
 
 	if (loglevel >= 1)
 	  std::cout << "## saving alignments on level " << cutoff << " in file "
-		    << groupies_file.str() << std::endl;
+		    << groupies_file.str().c_str() << std::endl;
 
 	// build sets of nids selected as representatives (empty at the beginning)
 	// and nids available as representatives (full at the beginning)
