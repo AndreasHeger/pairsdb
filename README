@@ -1,0 +1,13 @@
+This code contains code and snippets used in the creation
+of the BLASTP all-vs-all graph behind pairsdb 
+(http://pairsdb.csc.fi)
+
+This code is free software. Please see the file COPYING for details.                                                                                                                         
+
+This repository contains two implemenations, pairsdblib and pairsdb.
+
+pairsdblib is mostly legacy code. It implements various tools and classes used during the
+constrution of pairsdblib from makefiles. The library part is c++ wrapped with boost.python. 
+
+pairsdb is a reference implementation for pairsdb construction using python scripts and 
+cython to wrap c++ code.
